@@ -1,0 +1,160 @@
+@font-face {
+  font-family: "Cardo";
+  src: url("../fonts/Cardo-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "STIXTwoText";
+  src: url("../fonts/STIXTwoText.ttf") format("truetype");
+}
+
+body {
+  background-color: #eae2db;
+}
+
+.content {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  margin-top: -1px;
+}
+
+.header-block {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-block {
+  display: flex;
+  align-items: center;
+}
+
+.right-block {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header-logo {
+  padding-right: 50px;
+}
+
+.header-logo img {
+  width: 30px;
+  height: 30px;
+}
+
+.nav-bar {
+  display: inline-block;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav > ul > li {
+  list-style-type: none;
+  margin: 12px;
+}
+
+.link {
+  font-family: "STIXTwoText";
+  color: rgb(55, 52, 47);
+  font-style: italic;
+  font-size: 18px;
+}
+
+.active {
+  text-decoration: underline #37342f;
+  text-underline-offset: 4px;
+}
+
+.btn {
+  font-family: "STIXTwoText";
+  font-style: italic;
+  border: 1px solid #37342f;
+  padding: 10px;
+}
+
+.btn-small {
+  font-size: 14px;
+}
+
+h1 {
+  font-family: "STIXTwoText";
+  font-size: 46px;
+  font-style: italic;
+}
+.mt-100 {
+  margin-top: 100px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+h4 {
+  font-family: "Cardo";
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+p {
+  font-family: "Cardo";
+  color: rgb(55, 52, 47);
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.content_left,
+.content_right {
+  width: 50%;
+}
+
+.btn-middle {
+  font-size: medium;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mt-130 {
+  margin-top: 130px;
+}
+
+.upercase {
+  text-transform: uppercase;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+hr {
+  margin: 0px;
+}
+
+.content_right {
+  display: flex;
+}
+
+.year-90-deg {
+  transform: rotate(270deg);
+  font-family: "Cardo";
+  font-size: 24px;
+  align-self: flex-end;
+  padding-left: 70px;
+}
